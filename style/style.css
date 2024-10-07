@@ -1,0 +1,736 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+                                                /*AQUI COMEÇA O CABEÇALHO*/
+.fundo {
+    background-color: #05486B; 
+    border-bottom: 1px solid white;
+}
+
+.container{
+    padding:  1% 6%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.fundo .container nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.fundo .container .logo{
+    font-size: 80px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    width: 25%;
+    align-items: center;
+    
+}
+.fundo .container .logo img{
+    width: 100%;
+    height: 360px;
+    margin-top: 60px;
+
+}
+
+.fundo .container nav .navegacao {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    width: 25%;
+
+    
+}
+
+.fundo .container nav .barra{
+    display: flex;
+    align-items: center; 
+    
+    margin-left: 150px;
+
+}
+
+.container nav .navegacao li a{
+    margin: 0 35px;
+    font-size: 20px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.botao {
+    padding: 17px 10px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #0073D2;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;    transition: 0.4s;
+}
+
+
+
+.fundo .container nav .navegacao li a{
+    color: white;
+    text-decoration: none;
+    
+   
+}
+
+.barra{
+    border: none;
+    padding: 7px 50px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: text;
+}
+
+.fundo .container nav .barra img{
+  width: 15px;
+  height: 15px;
+
+}
+
+.botao:hover{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;    transition: 0.4s;
+}
+
+.barra:hover{
+    box-shadow: rgb(241, 243, 244) 0px 0px 0px 3px;
+    transition: 0.8s;
+}
+
+.fundo .container .navegacao li a:hover{
+    color: gray;
+    transition: 0.8s;
+
+}
+
+                                                  /*MAIN COMEÇA AQUI*/
+main .container{
+    display: flex;
+    background-color: #05486B;
+    
+}
+
+main .container .main-text{
+    width: 50%;
+    padding: 0 2%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin-left: -40px;
+}
+
+main .container .main-img{
+    width: 50%;
+    height: 500px;
+    border-top: 1px solid #05486B;
+    
+}
+
+main .container .main-img img{
+    width: 114%;
+    height: 102%;
+}
+
+.main-text h1{
+    margin: 20px 0;
+    font-size: 50px;
+    justify-content: center;
+    
+}
+
+.main-text h3{
+    margin: 20px 0;
+    font-size: 30px;
+
+}
+
+.main-text p{
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+main .container .main-text .qualidades{
+    margin: 20px 0;
+}
+
+main .container .main-text .qualidades li{
+    list-style: none;
+    margin: 5px 0;
+    
+}
+
+.main-text span a{
+    color: white;
+    text-decoration: none;
+}
+
+.main-text h1, span{
+    color:#1c89e1;
+}
+
+.main-text h3 a{
+    text-decoration: none;
+}
+
+                                             /*Cards Qualidades*/
+
+ .quali .container{
+    display: flex;
+    justify-content: space-around;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+ .quali .container .cards{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+ }
+
+ .quali .container .cards img{
+    height: 250px;
+    width: 250px;
+    margin: 5px;
+    border-radius: 15px;
+    
+ }
+
+ .quali .container .cards h3{
+    margin: 10px 0;
+    font-size: 20px;
+    margin-left: 25px;
+    
+ }
+ 
+ .quali .container .cards ul{
+    text-align: start;
+    margin: 10px;
+    list-style: none;
+ }
+
+ .quali .container .cards ul li{
+    margin-left: 13px;
+    
+ }
+
+ .quali .container .cards ul li img{
+    width: 8px;
+    height: 7px;
+    margin-top: 2px;
+ }
+                                                                        /* INICIO SETOR 2*/
+ .setor2 .container{
+    text-align: center;
+    background-color: #065283;
+    
+ }
+
+ .setor2 .container .escolha{
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin: 20px;
+    
+ }
+
+ .setor2 .container .botaocurso button{
+    padding: 16px 28px 16px 28px;
+    border-radius: 20px;
+    border: none;
+    background-image:linear-gradient(#1627be, #2a67d8);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    
+                                                                            /*INICIO SETOR 3*/
+ }
+
+ .botaocurso button:hover{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;    transition: 0.5s;
+ }
+
+ .setor3 .container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(233, 229, 229);
+
+    
+ }
+
+ .setor3 .container .caract{
+    display: flex;
+ }
+
+ .setor3 .container .caract .text-cards{
+    border: solid;
+    width: 250px;
+    height: 350px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: end;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+ }
+
+ .text-cards:hover{
+    box-shadow: inset 8px 6px 90px -11px rgba(0,0,0,0.75);
+    transition: 0.6s;
+
+ }
+
+ .text-cards h2{
+    margin: 10px 10px;
+    text-align: center;
+    color: white;
+ }
+
+ .text-cards p{
+    margin: 10px 10px;
+    text-align: center;
+    color: white;
+     
+ }
+
+ .porque{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+   
+ }
+
+ .setor3 .porque{
+    background-color: rgb(233, 229, 229);
+    margin-bottom: 0;
+    margin-top: 70px;
+ }
+
+ .setor3 .container .numeros{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 10px;
+    
+ }
+
+
+.setor3 .container .numeros p{
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+
+}
+
+.setor3 .container .numeros span{
+    color: #065283  ;
+    font-weight: 1000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#card1{
+    background-image: url(../img/prediocomfundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#card2{
+    background-image: url(../img/professora\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+#card3{
+    background-image: url(../img/estudas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.setor3 .porque{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.setor3 .porque .unique{
+    color: #05486B;
+    font-weight: 900;
+}
+                                                                        /* INICIO DO SETOR 4, ALUNOS*/
+.setor4{
+    margin: 60px 10px;
+    background-color: #065283;
+    border-radius: 5px;
+    padding: 25px 0;
+}
+
+.setor4 .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.setor4 .container .sep{
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 290px;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+.sep p{
+    line-height: 1.2em; /* Define a altura da linha */
+    height: calc(1.1em * 4); /* 3 linhas de altura */
+    
+}
+                                                                                
+.sep a{
+    color: black;
+}
+
+.sep a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+.setor4 .container .title{
+    font-size: 45px;
+    width: 15%;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    font-family: sans-serif;
+    color: white;
+}
+
+.setor4 .container .title img{
+    height: 300px;
+    width: 300px;
+    margin-bottom: -145px;
+    margin-left: -70px;
+}
+
+.setor4 .container .alunos img{
+    height: 115px;
+    width: 120px;
+    display: block;
+    margin: auto;
+    margin-bottom: -3%;
+    border-radius: 70px;
+    border: solid #065283;
+    margin-top: -30px;
+    padding: 10px;
+    background-color: #065283;
+    
+    
+}
+.setor4 .container .nomes{
+   margin-top: 10px;
+}
+
+.setor4 .container .alunos p{
+    text-align: center;
+    margin: 30px;
+}
+
+.setor4 .container .nomes{
+    text-align: center;
+    font-size: 20px;
+    background-color: #1c89e1;
+    border-radius: 0 0 10px 10px;
+    color: black;
+}
+
+.nomes h5{
+    margin-top: 10px;
+}
+
+.nomes p{
+    font-size: 15px;
+    margin-bottom: -20px;
+}
+
+.setor4 .container .title h4{
+    margin-bottom: 30px;
+
+}
+
+.setor4 .container .alunos p{
+    font-size: 19px;
+}                                                  
+                                            /*AQUI COMEÇA O FOOTER*/
+footer{
+    margin-bottom: 0;
+    background-color: rgb(233, 229, 229);
+    padding: 0 2%;
+    
+}
+footer .rodape{
+    display: flex;
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-wrap: wrap;
+}
+
+
+footer .rodape ul .redes-sociais img{
+    height: 40px;
+    width: 40px;
+    margin: 10px 5px;
+    margin-top: 20px;
+}
+
+footer .rodape .confira{
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+footer .logofinal img{
+    height: 150px;
+    width: 300px;
+    margin-right: 50px;
+    margin-bottom: 0;
+    
+}
+
+footer .rodape ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+footer .rodape ul li a:hover{
+    color: #1627be;
+}
+
+footer .rodape h3{
+    font-size: 25px;
+    text-align: center;
+
+}
+                                         /*PARTE DAS GAMBIARRA*/         
+footer .rodape ul li {
+    list-style: none;
+}
+
+#estude{
+    margin-left: -70px;
+}
+
+#contato{
+    margin-left: -80px;
+}
+
+.tele{
+    margin-left: 33.5rem;
+    position: relative;
+}
+
+.link{
+    margin-left: 40px;
+}
+
+
+main .container2{
+    border: 1px solid #05486B;
+    background-image: url(../img/main-fundo2.png);
+    width: 100%; 
+    height: 100vh;
+    background-size: cover; 
+    background-position: center; 
+
+}
+
+.container2 .imgfundo h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 120px;
+    color: white;
+    margin-top: 150px;
+}
+
+.container2 .imgfundo h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: #78bdf5;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+
+.container2 .barra2{
+    margin: 20px 30px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 30px;
+    cursor: text;
+    background-color: rgb(233, 229, 229);
+    gap: 5px;
+    font-family: sans-serif;
+}
+
+.container2 .barra2 img{
+    height: 28px;
+    margin-right: 5px;
+    
+}
+
+.container2 .barra2:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition:0.8s;
+}
+
+ /* Inicio dos Cards Pagina 2*/
+
+
+
+ .container2 .cards2{
+    width: 220px;
+    height: 250px;
+    border-radius: 7px;
+
+ }
+
+ .cards2{
+    background-image: url(../img/Sistema\ da\ Informação.jpg);
+    background-size: cover;
+    background-position: center;
+    background: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+ }
+
+
+
+ .container2 .cards2 h3 {
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    font-family:sans-serif ;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+ }
+
+
+.container2 .cards2 ul li{
+    color: white;
+    font-family:sans-serif;
+    text-align: center;
+    margin-top: 12px;
+    font-size: 16px;
+    list-style: none;
+    border-radius: 3px;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+
+ .container2 .sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.sobre a button{
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 42px;
+    background-image:linear-gradient( #05486b,  #05486b);
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+
+
+}
+
+.sobre a button:hover{
+    box-shadow: rgba(0, 114, 245, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transition: 0.3s;
+}
+
+.container2 .area {
+    font-size: 25px;
+    margin: 60px 10px;
+    padding: 15px;
+    border-radius: 1px;
+    border-bottom: 1px dashed #05486B;
+    color: #05486B;
+}
+.container2 .coluna{
+    justify-content: space-around;
+}
+
+.coluna{
+    display: flex;
+}
+
+.area{
+    font-family:sans-serif ;
+}
+
+.cards2 ul{
+    margin-top: 50px;
+
+}
+#lastcard{
+    margin-bottom: 65px;
+}
+
+.inscreva-se{
+    position: fixed;
+    bottom: 25em;
+    right: 0.1em;
+    opacity: 0.8;
+   
+}
+
+.inscreva-se .float{
+    display: inline-block;
+    background-color: #05486B;
+    padding: 20px 16px;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+
+}
+                                                                         /*Botão flutuante*/
+.inscreva-se .float:hover{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;    transition: 0.5s;
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+ 
+
+ 
