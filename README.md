@@ -1,2 +1,2 @@
-Tema do projeto: Site de Universidade
-Desenvolvido por: Cleberson Pereira, Gabriel Santos, Marcoss Vinícius e Rhyan Abdiel.
+Tema do projeto: Site de Universidade.
+Desenvolvido por: Cleberson Pereira, Gabriel Santos, Marcos Vinícius e Rhyan Abdiel.
