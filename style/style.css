@@ -16,9 +16,16 @@
 
 .fundo .container nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 0 16px;
+    width: 100%;
+  
+}
+
+.navegacao {
+    width: 50%;
+   
 }
 
 .fundo .container .logo{
@@ -70,6 +77,8 @@
     background-color: #0073D2;
     color: white;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;    transition: 0.4s;
+    margin-right: 36%;
+    margin-left: -25%;
 }
 
 
@@ -83,10 +92,22 @@
 
 .barra{
     border: none;
-    padding: 7px 50px;
+    padding: 7px 2%;
     background-color: white;
     border-radius: 10px;
     cursor: text;
+    width: 16%;
+    
+}
+
+.barra input{
+    border: none;
+    outline: none;
+    
+}
+
+.barra img{
+    margin-left: 10px;
 }
 
 .fundo .container nav .barra img{
@@ -245,11 +266,10 @@ main .container .main-text .qualidades li{
     background-image:linear-gradient(#1627be, #2a67d8);
     color: white;
     cursor: pointer;
-    font-size: 20px;
-    
-                                                                            /*INICIO SETOR 3*/
+    font-size: 20px;                                                                     
  }
-
+ 
+                                                           /*INICIO SETOR 3*/
  .botaocurso button:hover{
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;    transition: 0.5s;
  }
@@ -363,7 +383,7 @@ main .container .main-text .qualidades li{
     color: #05486B;
     font-weight: 900;
 }
-                                                                        /* INICIO DO SETOR 4, ALUNOS*/
+                                                                     /* INICIO DO SETOR 4, ALUNOS*/
 .setor4{
     margin: 60px 10px;
     background-color: #065283;
@@ -585,9 +605,28 @@ main .container2{
 }
 
 .container2 .barra2 img{
-    height: 28px;
+    height: 35px;
     margin-right: 5px;
+    margin-top: 29px;
     
+}
+
+.barra2 input{
+    padding: 30px 80px;
+    border: none;
+    outline: none;
+    background-color: rgb(233, 229, 229);
+    width: 500px;
+    font-size: 30px;
+    text-align: center;
+    font-size: bold;
+
+}
+
+.barra2 input::placeholder{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 1000;
 }
 
 .container2 .barra2:hover{

@@ -4,30 +4,34 @@
     <meta charset="UTF-8">
     <title>Universidade da Zona Leste</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/teste.css">
+    <link rel="stylesheet" href="./style/responsive.css">
 </head>
 <body>
-    <header>
-        <div class="fundo">
-           <div class="container">
-            <nav>
-                <div class="logo">
-                  <a href="./index.html"><img src="./img/main_logo.png" alt=""></a>
-                </div>
-                <ul class="navegacao">
-                    <li>
-                        <li><a href="cursos.html">CURSOS</a></li>
-                        <li><a href="#">VESTIBULAR</a></li>
-                        <li><a href="#"><button class="botao">ÁREA DO ALUNO</button></a></li>
-                    </li>
-                   </ul> 
+ 
+    <div class="fundo">
+ 
+            <div class="container">
+                    <nav>
+                        <div class="logo">
+                            <img src="./img/main_logo.png" alt="">
+                        </div>
+                        <ul class="navegacao">
+                            <li><a href="#">CURSOS</a></li>
+                            <li><a href="#">VESTIBULAR</a></li>
+                            <a href="#"><button class="botao">ÁREA DO ALUNO</button></a>
+                        </ul>
                    <div class="barra">
-                    Pesquisar... <img src="./img/lupa.png" alt="">
+                        <input type="text" placeholder="Pesquisar..."><img src="./img/lupa.png" alt="">
                    </div> 
+                   <div class="menu_icon">
+                    <img src="./img/menu.png" alt="">   
+               </div>
             </nav> <!--fim da nav-->
            </div><!--container-->
 
         </div><!--fim do fundo-->
-    </header> <!--fim do cabeçalho-->
+ 
  
     
     <main>
@@ -98,8 +102,35 @@
                     <h1>Escolha seu curso</h1>
                 </div>
                 <div class="botaocurso">
-                    <a href="./cursos.html"><button>Cursos</button></a>
+                    <button class="buteco">Cursos</button>
                 </div>
+                    <ul class="teste">
+                        <li id="gradu">GRADUAÇÃO</li>
+                        <li id = "pos">PÓS-GRADUAÇÃO</li>
+                        <li id = "mes">MESTRADO</li>
+                        <li id = "tec">TÉCNICO</li>
+                    </ul>
+                <div class="info">
+                    <h3>Graduação</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex iusto rerum ullam sit. Velit necessitatibus, quisquam sint cupiditate totam vitae? </p>
+                    <a href="">ir para a pagina de cursos</a>
+                </div>
+                <div class="info2">
+                    <h3>Pós-Graduação</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex iusto rerum ullam sit. Velit necessitatibus, quisquam sint cupiditate totam vitae? </p>
+                    <a href="">ir para a pagina de cursos</a>
+                </div>
+                <div class="info3">
+                    <h3>MESTRADO</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex iusto rerum ullam sit. Velit necessitatibus, quisquam sint cupiditate totam vitae? </p>
+                    <a href="">ir para a pagina de cursos</a>
+                </div>
+                <div class="info4">
+                    <h3>TÉCNICO</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex iusto rerum ullam sit. Velit necessitatibus, quisquam sint cupiditate totam vitae? </p>
+                    <a href="">ir para a pagina de cursos</a>
+                </div>
+                
             </div>
         </section>
 
@@ -270,12 +301,13 @@
             
             
         </footer>
-
         
-     
+      
 
      
 
-    
+     
+<script src="./script.js"></script>
+<script src="./main.js"></script>
 </body>
 </html>

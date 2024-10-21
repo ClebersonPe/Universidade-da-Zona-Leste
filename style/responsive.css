@@ -1,0 +1,160 @@
+.menu_icon{
+    display: none;
+    z-index: 10;
+}
+
+@media (max-width: 1268px){
+    .barra{
+        z-index: -1;
+    }
+    
+}
+
+@media (max-width: 852px){
+    .fundo .container nav .navegacao{
+        position: fixed;
+        background-color: #05486b;
+        top: 0;
+        width: 100%;
+        height: 25%;
+        right: 102%;
+
+        transition: 0.3s;
+        flex-direction: column;
+        justify-content: start;
+        border: 0 0 1px 0 solid;
+        
+    }
+    .fundo .container .logo{
+        width: 100%;
+       
+    }
+    .navegacao .botao{
+        margin-left: 0.1rem;
+        margin-top: 0.1rem;
+        width: 100%;
+        
+    }
+
+    .navegacao li{
+        margin-top: 20px;
+        background-color: #0073d2;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .fundo .container nav .navegacao li a{
+        color: white;
+    }
+
+    .navegacao{
+        gap: 7px;
+    }
+
+    .fundo .container nav .navegacao.ativo{
+        right: 0;
+    }
+    .menu_icon{
+        display: block;
+    }
+    .inscreva-se{
+        display:none;
+    }
+
+    main .container{
+        flex-direction: column-reverse;
+    }
+
+    main .container .main-text{
+        width: 100%;
+        text-align: center;
+        margin-left: 4px;
+        
+        
+    }
+    main .container .main-img{
+        width: 100%;
+        margin-left: -45px;
+    
+    }
+     .container .main-text h1{
+       font-size: 3.5rem;
+    }
+
+    .quali .container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .setor3 .container{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .setor3 .container .caract{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+        margin-left: 0.9em;
+    }
+    .setor3 .container .numeros{
+        text-align: center;
+        margin-right: 5em;
+        margin-bottom: 1.2em;
+        
+    }
+
+    .setor3 .container .numeros p{
+        font-size: 2.5rem;
+    }
+    .setor3 .container .numeros p span{
+        font-size: 4rem;
+    }
+    .setor4 .container{
+        flex-direction: column;
+    }
+    .setor4 .container .title{
+       width: 100%;
+       display: flex;
+    }
+    .setor4 .container .title img{
+       display: none;
+        
+    }
+
+    .setor4 .container .sep .alunos{
+        align-items: center;
+        width: 100%;
+    }
+    .setor4 .container .sep{
+        margin-left: 8em;
+        
+    }
+
+    footer .rodape{
+        flex-direction: column;
+        align-items: start;
+        
+    }
+
+    footer .rodape .confira{
+        width: 100%;
+        text-align: center;
+    }
+
+    .tele{
+        margin-left: 0;
+    }
+    .link{
+        margin-left: 0;
+    }
+
+    footer .rodape .logofinal{
+        display: block;
+        margin: auto;
+    }
+
+    
+    
+}

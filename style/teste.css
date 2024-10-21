@@ -1,0 +1,140 @@
+.teste{
+    display: none;
+    position: absolute;
+    left: 30%;
+    list-style: none;
+    margin-top: -85px;
+    padding: 0% 3%;
+ }
+ .teste li{
+    margin: 3px 0;
+    width: 100%;
+    border: solid;
+    background-color: #78bdf5;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    
+ }
+ .teste li:hover{
+    background-color: red;
+    
+ }
+
+
+.info{
+    border: none;
+    width: 15%;
+    height: 250px;
+    color: blue;
+    background-color: rgb(233, 229, 229);
+    border-radius: 5px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 990px;
+    display: none;
+
+    border: 10px solid #065283;
+ }
+
+ .info h3{
+    color: black;
+    background-color: #2a67d8;
+    padding: 10px 5px;
+    
+    
+ }
+
+ .info p{
+    text-align: justify;
+    margin: 14px;
+ }
+
+ .info2{
+    border: none;
+    width: 15%;
+    height: 250px;
+    color: blue;
+    background-color: rgb(233, 229, 229);
+    border-radius: 5px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 990px;
+    display: none;
+   
+    border: 10px solid #065283;
+ }
+
+ .info2 h3{
+    color: black;
+    background-color: #2a67d8;
+    padding: 10px 5px;
+    
+    
+ }
+
+ .info2 p{
+    text-align: justify;
+    margin: 14px;
+ }
+
+ .info3{
+    border: none;
+    width: 15%;
+    height: 250px;
+    color: blue;
+    background-color: rgb(233, 229, 229);
+    border-radius: 5px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 990px;
+    display: none;
+   
+    border: 10px solid #065283;
+ }
+
+ .info3 h3{
+    color: black;
+    background-color: #2a67d8;
+    padding: 10px 5px;
+    
+    
+ }
+
+ .info3  p{
+    text-align: justify;
+    margin: 14px;
+ }
+
+ .info4{
+    border: none;
+    width: 15%;
+    height: 250px;
+    color: blue;
+    background-color: rgb(233, 229, 229);
+    border-radius: 5px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 990px;
+    display: none;
+
+    border: 10px solid #065283;
+ }
+
+ .info4 h3{
+    color: black;
+    background-color: #2a67d8;
+    padding: 10px 5px;
+    
+    
+ }
+
+ .info4 p{
+    text-align: justify;
+    margin: 14px;
+ }
+
